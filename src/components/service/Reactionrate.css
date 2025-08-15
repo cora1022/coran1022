@@ -1,0 +1,79 @@
+    .Cancebutton{
+      border: 2px solid rgb(154, 153, 153);
+      border-radius: 8px; /* 둥근 모서리 */
+      height: 30px;
+      width: 60px;
+      line-height: 30px;     /* 높이와 동일하게 설정하여 세로 중앙 정렬 */
+      background-color: rgb(235, 235, 235);
+    }
+
+    .Cancebutton:hover{
+      background-color: rgb(212, 212, 212);
+    }
+    
+    .Description1{
+      display: none;
+    }
+    .Description2 {
+      background: rgb(246, 246, 246);
+      margin-left: 20%;
+      margin-right: 20%;
+      padding: 5%;
+    } 
+
+    .DesButn1{
+      display: none;
+    }
+
+    .DesButn2{
+      margin : auto;
+      width: 100px;
+      transition: transform 0.3s ease;
+    }
+
+    .DesButn2:hover {
+      transform: translateY(-4px);
+      color:rgb(126, 126, 126)
+    }
+    
+    /* .DesButn1 {
+      display: none;
+    }
+
+    .DesButn2 {
+      border : 0px;
+      border-top: 2px dashed #d2d2d2;
+    } */
+
+    .normal:hover {
+      background-color: rgb(135, 172, 235);
+    }
+    
+    .normal {
+      width: 300px;
+      height: 150px;
+      background-color: skyblue;
+    }
+
+    .ready {
+      width: 100%;
+      height: 300px;
+      background-color: red;
+    }
+
+    .go {
+      width: 100%;
+      height: 300px;
+      background-color: rgb(57, 255, 47);
+    }
+
+body {
+    text-align: center;
+}
+    #startArea {
+      margin: auto;
+      text-align: center;
+      font-size: 24px;
+      line-height: 150px;
+      cursor: pointer;
+    }

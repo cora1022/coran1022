@@ -1,0 +1,10 @@
+.homelogo{
+    height: 450px;
+    background-image: url(./homelogoimg.png);
+    background-size: cover;
+    background-position: center;
+}
+.twohome{
+    height: 100px;
+    background: linear-gradient(to top,white,black);
+}

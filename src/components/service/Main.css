@@ -1,0 +1,33 @@
+
+.main {
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(to bottom right, rgb(0, 255, 85), rgb(71, 34, 255));
+  color: white;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #1f2937; /* 어두운 네이비 계열 */
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
