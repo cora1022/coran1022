@@ -8,3 +8,65 @@
     height: 100px;
     background: linear-gradient(to top,white,black);
 }
+
+.a{
+    background: red;
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    margin: 30px;
+    display : inline-block;
+}
+
+.b{
+    display : inline-block;
+
+}
+
+.c{
+    background: greenyellow;
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    
+    display : inline-block;
+}
+
+.option-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.option-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.option-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.option-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.option-desc {
+  font-size: 14px;
+  color: #64748b; /* slate-500 */
+}
