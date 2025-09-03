@@ -37,6 +37,7 @@ const Reactionrate = () => {
       <p>과학적으로도 반응속도를 20ms~50ms 정도 개선하는 것은 충분히 가능합니다.</p>
       <br></br>
       <p><b>반응속도 훈련 앱</b>: 꾸준한 훈련으로 시각 반응속도를 단축할 수 있습니다.</p>
+      <p>반응속도가 낮다고 해서 주저하지 마세요</p>
       <div className="Cancebutton" onClick={Cance}>닫기</div>
     </div>
     

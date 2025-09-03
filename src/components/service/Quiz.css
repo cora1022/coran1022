@@ -1,0 +1,34 @@
+#mp4div {
+    display: grid;
+    width: auto;
+    height: auto;
+    margin-inline: 20%;
+}
+.test {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 16px;
+    height: 100px;
+    margin-inline: 20%;
+}
+
+.test2 {
+    width: 10px;
+    height: 10px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+#Quiz {
+    background-image: linear-gradient(to left, rgb(9, 9, 10), rgb(148, 146, 172));
+    color: white;
+}

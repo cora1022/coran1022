@@ -8,7 +8,8 @@ const Header = () => {
       <nav className="nav">
         <a href="/">홈</a>
         <a href="/game1">반응속도</a>
-        <a href="#">서비스</a>
+        <a href="/game2">티맞</a>
+        <a href="/informational">정보글</a>
         <a href="#">연락처</a>
       </nav>
     </header>

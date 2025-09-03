@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./components/Header";
 import Reactionrate from "./components/service/Reactionrate";
 import Home from "./components/service/Home";
+import Infomational from "./components/service/Informational";
+import Quiz from "./components/service/Quiz";
 import "./App.css";
 import { Routes, Route, Link, useNavigate, Outlet } from "react-router-dom";
 
@@ -11,6 +13,8 @@ function App() {
   <Routes>
     <Route path="/" element={<div><Header /><Home /></div>} />
     <Route path="/game1" element={<div><Header /><Reactionrate /></div>} />
+    <Route path="/informational" element={<div><Header /><Infomational /></div>} />
+    <Route path="/game2" element={<div><Header /><Quiz /></div>} />
   </Routes>
 </div>
   );
