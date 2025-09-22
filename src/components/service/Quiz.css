@@ -13,8 +13,8 @@
 }
 
 .test2 {
-    width: 10px;
-    height: 10px;
+    width: auto;
+    height: auto;
 }
 
 .img {
@@ -26,9 +26,27 @@
 
 .img:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #Quiz {
     background-image: linear-gradient(to left, rgb(9, 9, 10), rgb(148, 146, 172));
     color: white;
+}
+
+.Modal1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    height: 100px;
+    margin-inline: 20%;
+}
+
+.Modal2 {
+    width: auto;
+    height: auto;
+}
+
+.Modal3 {
+    /* background-color: red; */
 }
