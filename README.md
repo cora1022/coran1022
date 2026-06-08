@@ -43,11 +43,3 @@ npm start
 ```
 
 개발 서버는 기본적으로 `http://localhost:3000`에서 실행됩니다.
-
-## 환경변수
-
-현재 코드에서 필요한 환경변수는 없습니다. `openai` 패키지가 dependency에 포함되어 있지만 실제 API 호출 코드는 발견되지 않았습니다. 향후 API를 연결한다면 실제 키를 커밋하지 말고 `.env.local`에 넣고 `.env.example`에는 변수명만 남기세요.
-
-## 보안 및 공개 메모
-
-현재 파일과 git history에서 실제 secret 형태 값은 발견되지 않았습니다. 공개 저장소로 유지 가능하지만, 사용하지 않는 dependency 정리와 README에 배포 URL을 추가하는 개선을 권장합니다.
